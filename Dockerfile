@@ -12,6 +12,5 @@ USER root
 RUN useradd -m guiuser ; \
    echo 'guiuser ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers 
 
-WORKDIR /home/guiuser
-USER guiuser
+
 
